@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    height:100%;
+    background:rgb(70, 57, 134);
+    position:absolute;
+}
+.ladoleft{
+    width:50%;
+    height:100%;
+    background:lightblue;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.caixa{
+    width:90%;
+    height:85%;
+    background:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:0 2px 15px gray;
+    border:none;
+}
+.dividir1{
+    width:50%;
+    height:100%;
+    background:white;
+    position:absolute;
+
+}
+.dividir2{
+    width:50%;
+    height:100%;
+    background:lightblue;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.dividir2 img{
+    background-size:cover;
+    width:100%;
+    height:70%;
+    position:absolute;
+    top:50%;
+    left:52%;
+    transform:translate(-50%,-50%);
+}
+.informações{
+    width:50%;
+    height:88%;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.informações img{
+    width:35%;
+    height:30%;
+    display:block;
+    margin:0 auto;
+}
+.informações .titulo{
+    font-size:30px;
+    font-family:arial;
+    text-align:center;
+    border:solid 1px red;
+    width:80%;
+    height:10%;
+    margin:0 auto;
+    margin-bottom:15px;
+}
+.btn{
+    width:80%;
+    height:8%;
+    font-size:12px;
+    display:block;
+    margin:0 auto;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:none;
+    background: white;
+    box-shadow:0 2px 7px gray;
+    transition-property:backrgound;
+    transition-duration:1s;
+    border-radius:5px;
+}
+.btn:hover{
+    background:gray;
+    font-weight:400;
+    opacity:0.5;
+}
+.center{
+    width:80%;
+    height:20px;
+    margin-bottom:20px;
+    margin-top:40px;
+    margin:0 auto;
+}
+.center p::before{
+    content:"";
+    width:80%;
+    height:1px;
+    background:black;
+    display: block;
+    position:absolute;
+    bottom:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.center p::after{
+    content:"Login com o Gmail";
+    display:block;
+    width:40%;
+    background:white;
+    position:absolute;
+    top:60%;
+    left:50%;
+    font-size:11px;
+    transform:translate(-50%,-50%);
+    padding-left:2px;
+    padding-right:2px;
+    padding-bottom:4px;
+    color:gray;
+}
+
+.inputs{
+    width:80%;
+    height:16%;
+    display:block;
+    margin:0 auto;
+}
+.inputs input{
+    margin-top:15px;
+    margin-bottom:8px;
+    display:block;
+    width:100%;
+    border:none;
+    border-radius:5px;
+    box-shadow: 0 2px 10px gray;
+    
+}
+.checkbox{
+    width:80%;
+    height:5%;
+    margin:0 auto;
+    margin-bottom:15px;
+    
+}
+.checkbox .termos{
+    font-size:15px;
+    margin-left:5px;
+    padding-bottom:1%;
+}
+.btnpai{
+    margin:0 auto;
+    width:80%;
+    height:18%;
+}
+.btn-login{
+    width:100%;
+    height:50%;
+    background:rgb(39, 20, 92);
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    border:none;
+    box-shadow:0 2px 5px (39, 20, 92);
+    border-radius:2px;
+    
+}
+.btn-login:hover{
+    background:rgb(32, 16, 75);
+}
+.cadastro{
+    display:block;
+    font-size:14px;
+    width:100%;
+    height:10%;
+    padding-top:3%;
+}
+.cadastro a{
+    padding-left:5px;
+}
