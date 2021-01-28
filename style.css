@@ -4,6 +4,7 @@
 }
 .container{
     width:100%;
+    max-width:1200px;
     height:100%;
     background:rgb(70, 57, 134);
     position:absolute;
